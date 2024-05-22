@@ -130,8 +130,7 @@ Below are the details of the endpoints included in the Postman collection:
 ## Postman Collection
 
 You can access and import the Postman collection for this API using the following link:
-[Postman Collection](https://cloudy-firefly-639715.postman.co/workspace/My-Workspace~121912ce-e052-4297-82cb-de616a23bb7f/collection/19374226-4daf12d8-7289-4207-9e7a-b5f4d58b76bf?action=share&source=collection_link&creator=19374226)
-
+[Donwload Postamn Collection](https://drive.google.com/drive/folders/1ZxWetVlPx1PDV_zgyHHlEIIMZqiA7TYD?usp=sharing)
 
 ## Database Entity-Relationship Diagram (ERD)
 
