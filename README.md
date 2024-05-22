@@ -16,17 +16,17 @@ To run this application, you must have Docker and docker-compose installed on yo
 2. Start the application using docker-compose:
 
     ```bash
-    docker-compose up --build
+    docker compose up --build
 
 3. In a new console copy the .env.example file to .env inside the Nginx container:
 
     ```bash
-    docker-compose exec nginx sh -c 'cd /var/www/html && cp .env.example .env'
+    docker compose exec nginx sh -c 'cd /var/www/html && cp .env.example .env'
 
 4. Run migrations and install Passport inside the PHP container:
 
     ```bash
-    docker-compose exec php sh -c 'php artisan migrate --force && php artisan passport:install'
+    docker compose exec php sh -c 'php artisan migrate --force && php artisan passport:install'
 
 5. After these steps your application will be located at:
 
@@ -131,4 +131,22 @@ Below are the details of the endpoints included in the Postman collection:
 
 You can access and import the Postman collection for this API using the following link:
 [Postman Collection](https://cloudy-firefly-639715.postman.co/workspace/My-Workspace~121912ce-e052-4297-82cb-de616a23bb7f/collection/19374226-4daf12d8-7289-4207-9e7a-b5f4d58b76bf?action=share&source=collection_link&creator=19374226)
+
+
+## Database Entity-Relationship Diagram (ERD)
+
+![ERD](https://i.ibb.co/MSgMSYN/DER.png)
+
+## UML Diagram
+
+![UML Diagram](https://i.ibb.co/dG68g1B/DIAGRAMA-UML-API-GIPHY.png)
+
+
+## Use Case Diagram
+
+![Use case diagram](https://i.ibb.co/7VV9GVq/Diagrama-casos-de-uso.png)
+
+## Sequence Diagram
+
+![Sequence Diagram](https://i.ibb.co/JvLM4sf/diagrama-secuencia-uml.png)
 
