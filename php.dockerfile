@@ -12,10 +12,4 @@ RUN mkdir -p /var/www/html/public
 
 RUN docker-php-ext-install pdo pdo_mysql
 
-RUN composer install
-
-RUN artisan migrate | yes
-
-RUN artisan passport:install | yes | yes
-
 CMD ["php-fpm", "-y", "/usr/local/etc/php-fpm.conf", "-R"]
