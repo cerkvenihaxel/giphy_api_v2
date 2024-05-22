@@ -11,7 +11,7 @@ To run this application, you must have Docker and docker-compose installed on yo
 1. Clone the repository:
    
    ```bash
-   git clone [url del repo]
+   git clone [Link to repo]('https://github.com/cerkvenihaxel/giphy_api_v2')
 
 2. Start the application using docker-compose:
 
