@@ -29,7 +29,6 @@ services:
       dockerfile: php.dockerfile
     volumes:
       - ./src:/var/www/html
-
   composer:
     build:
       context: .
@@ -52,4 +51,5 @@ services:
     working_dir: /var/www/html
     depends_on: 
       - mysql
+      - php
     entrypoint: ["php", "/var/www/html/artisan"]
