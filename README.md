@@ -1,6 +1,6 @@
 # Giphy API V2 Application
 
-This is a technical challenge for Prex, implemented using Laravel 10, PHP 8.2, and MySQL.
+Hi! This is a technical challenge for Prex, implemented using Laravel 10, PHP 8.2, and MySQL.
 
 ## Prerequisites
 
